@@ -39,9 +39,9 @@ function draw() {
   actualizar();
 
   noStroke();
-  fill(255, 200, 50);
+  fill(255, random(100, 255), 50);
   circle(posX, posY, 80);
-  fill(255, 150, 100);
+  fill(255, 200, 100);
   rect(windowWidth / 2, windowHeight - margen, windowWidth, esp);
 }
 
