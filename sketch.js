@@ -21,7 +21,7 @@ function setup() {
   rectMode(CENTER);
   diam = random(10, 100);
   rad = diam / 2;
-  esp = 50;
+  esp = 60;
   margen = 40;
   piso = windowHeight - margen - esp / 2;
   vel = 0;
@@ -39,9 +39,9 @@ function draw() {
   actualizar();
 
   noStroke();
-  fill(255, random(100, 255), 50);
+  fill(255, 200, 50);
   circle(posX, posY, 80);
-  fill(255, 200, 100);
+  fill(255, 150, 100);
   rect(windowWidth / 2, windowHeight - margen, windowWidth, esp);
 }
 
